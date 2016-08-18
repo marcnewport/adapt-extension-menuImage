@@ -1,0 +1,8 @@
+//course.json
+{
+    "_menuImage": {
+        "paddingTop": "100px",
+        "src": "course/en/images/menu-image.png",
+        "paddingBottom": "50px"
+    }
+}

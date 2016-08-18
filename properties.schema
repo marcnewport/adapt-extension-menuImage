@@ -1,0 +1,70 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties": {
+        "pluginLocations": {
+            "type": "object",
+            "required": true,
+            "properties": {
+                "config": {
+                    "type": "object"
+                },
+                "course": {
+                    "type": "object",
+                    "required": false,
+                    "legend": "Menu image",
+                    "properties": {
+                        "_menuImage": {
+                            "type": "object",
+                            "required": false,
+                            "legend": "Menu image",
+                            "properties": {
+                                "paddingTop": {
+                                    "type": "string",
+                                    "required": false,
+                                    "default": "100px",
+                                    "inputType": "Text",
+                                    "validators": [],
+                                    "help": "The padding above the image using a CSS value",
+                                    "translatable": true
+                                },
+                                "src": {
+                                    "type": "string",
+                                    "required": false,
+                                    "title": "Image source",
+                                    "default": "",
+                                    "inputType": "Asset:image",
+                                    "validators": [],
+                                    "help": "Adds an image to the menu above the title"
+                                },
+                                "paddingBottom": {
+                                    "type": "string",
+                                    "required": false,
+                                    "default": "50px",
+                                    "inputType": "Text",
+                                    "validators": [],
+                                    "help": "The padding below the image using a CSS value",
+                                    "translatable": true
+                                }
+                            }
+                        }
+                    }
+                },
+                "contentobject": {
+                    "type": "object"
+                },
+                "article": {
+                    "type": "object"
+                },
+                "block": {
+                    "type": "object"
+                },
+                "component": {
+                    "type": "object"
+                }
+            }
+        }
+    }
+}

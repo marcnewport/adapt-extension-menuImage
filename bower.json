@@ -1,0 +1,16 @@
+{
+    "name": "adapt-extension-menuImage",
+    "version": "0.1.0",
+    "framework": "^2.0.0",
+    "homepage": "https://github.com/marcnewport/adapt-extension-menuImage",
+    "displayName" : "Menu image",
+    "extension" : "menuImage",
+    "description": "Adapt extension that adds an image to a menu above the title",
+    "main": "js/adapt-extension-menuImage.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-extension"
+    ],
+    "license": "GPLv3",
+    "targetAttribute": "_menuImage"
+}
